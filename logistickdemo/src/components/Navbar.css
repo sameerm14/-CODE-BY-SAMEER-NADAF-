@@ -1,0 +1,41 @@
+.navbar {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+  margin-top: 0.2px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.05em;
+  margin-left: 20px;
+}
+
+.navbar-nav {
+  gap: 2.5rem;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active,
+.nav-link:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}

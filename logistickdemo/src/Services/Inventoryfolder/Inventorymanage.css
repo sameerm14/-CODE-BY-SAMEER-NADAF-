@@ -1,0 +1,54 @@
+.contact-forms {
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 60%;
+  display: inline-block;
+}
+
+.contact-forms h2 {
+  text-align: center;
+}
+.inven {
+  margin-bottom: 7%;
+}
+.widt {
+  border-radius: 5px;
+  width: 45%;
+  padding: 50px 40px;
+}
+
+.cent {
+  margin: auto 0px;
+}
+.contact-forms form {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.contact-forms label {
+  font-weight: 100;
+}
+
+.contact-forms input,
+select,
+.contact-forms textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-forms button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-forms button:hover {
+  background-color: #45a049;
+}

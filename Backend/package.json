@@ -1,0 +1,27 @@
+{
+  "name": "backendlogiflow",
+  "version": "1.0.0",
+  "description": "managing the flow of materials through logisticks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node index.js"
+  },
+  "author": "Sameer Nadaf",
+  "license": "ISC",
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.1",
+    "mongoose": "^8.3.4",
+    "nodemailer": "^6.9.14",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^3.1.0",
+    "qrcode": "^1.5.3"
+  }
+}

@@ -1,0 +1,80 @@
+#quote {
+  width: 50%;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+#quotevalue {
+  margin-top: 20%;
+  width: 80%;
+  margin-left: 10%;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  animation: glow 1.5s ease-in-out infinite alternate;
+  padding-left: 10px;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #4caf50, 0 0 20px #afac4c, 0 0 30px #3df143; /* Initial shadow */
+  }
+  to {
+    text-shadow: 0 0 20px #4d4c36, 0 0 30px #4caf50, 0 0 40px #afaa4c; /* Final shadow */
+  }
+}
+.contact-form {
+  margin: 0px 0px 40px 0px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 35%;
+  display: inline-block;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+#pop {
+  position: absolute;
+  top: 62px;
+  left: 63%;
+  font-size: larger;
+  color: black;
+  width: 25%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
